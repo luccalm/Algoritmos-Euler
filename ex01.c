@@ -13,12 +13,14 @@ int soma, i;
 
 for(i = 1; i < 1000; i++) {
 
+//Realiza a divisão do I pelo 3, caso o resto seja 0 significa que o mesmo é multiplo, então soma na variável soma o número (I)
 if(i % 3 == 0) 
 {
 	soma = soma + i;
 }
 else
 {
+//Caso a divisão pelo 3 não ocorra entrara no else e se caso no else a divisão por 5 resultar em resto 0 realiza a mesma operação de antes.
 	if(i % 5 == 0)
 	{
 	soma = soma + i;	
